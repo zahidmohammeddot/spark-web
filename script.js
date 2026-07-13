@@ -3,6 +3,10 @@ const navLinks = document.querySelector(".nav-links");
 
 menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
+
+    if(navLinks.classList.contains("active")){
+        menuToggle.style.display = "none";
+    }
 });
 
 // ================= topic-search-section =================
