@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 9 | Spark Academy Odisha</title>
+    <title>Class 9 Mathematics | Spark Academy Odisha</title>
 
     <link rel="stylesheet" href="/style.css">
 
@@ -63,21 +63,21 @@
             </li>
 
             <li>
-                <a href="/class 8th/class8.html">
+                <a href="/class-8th/class8.html">
                     <i class="fa-solid fa-book-open"></i>
                     Class 8
                 </a>
             </li>
 
             <li>
-                <a href="/class 9th/class9.html">
+                <a href="/class-9th/class9.html">
                     <i class="fa-solid fa-book-open"></i>
                     Class 9
                 </a>
             </li>
 
             <li>
-                <a href="/class 10th/class10.html">
+                <a href="/class-10th/class10.html">
                     <i class="fa-solid fa-book-open"></i>
                     Class 10
                 </a>
@@ -109,109 +109,184 @@
     </nav>
 
 
-    <!-- ================= hero section ================= -->
 
-    <section class="class-hero">
+    <!-- ================= subject-hero ================= -->
 
-        <div class="class-hero-content">
+    <section class="subject-hero">
 
-            <span>Welcome to</span>
+    <div class="subject-hero-content">
 
-            <h1>Class 9 Learning Hub</h1>
+        <span>Class 9</span>
 
-            <p>
-                Explore Mathematics, Physics, Chemistry and English
-                through notes, videos and practice materials.
-            </p>
+        <h1>Mathematics</h1>
 
+        <p>
+            Learn Mathematics through concept-based videos,
+            notes and practice questions.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= topic-search-section ================= -->
+
+
+  <section class="topic-search-section">
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+            type="text"
+            id="topicSearch"
+            placeholder="Search topics..."
+            onkeyup="searchTopics()"
+        >
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= topics--section ================= -->
+
+
+
+<section class="topics-section">
+
+    <div class="section-title">
+        <h2>Mathematics Topics</h2>
+        <p>Select a topic to start learning.</p>
+    </div>
+
+    <div class="topics-grid">
+
+        <a href="" class="topic-card">
+            <h3>Number Systems</h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3>Polynomials </h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3>Coordinate Geometry </h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3>Linear Equations in Two Variables</h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3>Introduction to Euclid’s Geometry</h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3> Lines and Angles </h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3>Triangles</h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3>Quadrilaterals </h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3> Areas of Parallelograms and Triangles </h3>
+        </a>
+
+        <a href="" class="topic-card">
+            <h3>Circles </h3>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= topic-video-section ================= -->
+
+<section class="subject-video-section">
+
+    <div class="section-title">
+        <h2>Featured Videos</h2>
+    </div>
+
+    <div class="subject-video-grid">
+
+            <!-- here i change the class "subject-video-card" to "topic-card". so that we can reuse the topic-card styles, that is searchable and responsive. -->
+
+        <div class="topic-card">
+            <i class="fa-brands fa-youtube"></i>
+            <h3>Triangles</h3>
+            <p>YouTube video link.</p>
         </div>
 
-    </section>
-
-    <!-- ================= subject section ================= -->
-
-    <section class="subjects-section">
-
-        <div class="section-title">
-            <h2>Choose Your Subject</h2>
-            <p>Select a subject to start learning.</p>
+        <div class="topic-card">   
+            <i class="fa-brands fa-youtube"></i>
+            <h3>Circles </h3>
+            <p>YouTube video link.</p>
         </div>
 
-        <div class="subjects-grid">
-
-            <!-- Mathematics -->
-            <a href="/class 9th/class9th-mathematics/class9th-maths-index.html" class="subject-card">
-
-                <i class="fa-solid fa-square-root-variable"></i>
-
-                <h3>Mathematics</h3>
-
-                <p>Concepts, formulas and practice questions.</p>
-
-            </a>
-
-            <!-- Physics -->
-            <a href="/class 9th/class9th-physics/class9-physics-index.html" class="subject-card">
-
-                <i class="fa-solid fa-atom"></i>
-
-                <h3>Physics</h3>
-
-                <p>Understand the laws of nature and motion.</p>
-
-            </a>
-
-            <!-- Chemistry -->
-            <a href="/class 9th/class9th-chemistry/class9-chemistry-index.html" class="subject-card">
-
-                <i class="fa-solid fa-flask"></i>
-
-                <h3>Chemistry</h3>
-
-                <p>Learn matter, reactions and experiments.</p>
-
-            </a>
-
-            <!-- English -->
-            <a href="/class 9th/class9th-english/class9th-english-index.html" class="subject-card">
-
-                <i class="fa-solid fa-book-open"></i>
-
-                <h3>English</h3>
-
-                <p>Improve grammar, writing and vocabulary.</p>
-
-            </a>
-
+        <div class="topic-card">   
+            <i class="fa-brands fa-youtube"></i>
+            <h3>Coordinate Geometry</h3>
+            <p>YouTube video link.</p>
         </div>
 
-    </section>
+    </div>
 
-    <!-- ================= Footer ================= -->
+</section>
 
-    <section class="class-stats">
 
-        <div class="stat-box">
-            <h2>4+</h2>
-            <p>Subjects</p>
+<!-- ================= notes-section ================= -->
+
+<section class="notes-section">
+
+    <div class="section-title">
+        <h2>Download Notes</h2>
+    </div>
+
+    <div class="notes-grid">
+
+        <div class="notes-card">
+            <h3>Coordinate Geometry Notes</h3>
+            <button>Download PDF</button>
         </div>
 
-        <div class="stat-box">
-            <h2>100+</h2>
-            <p>Topics</p>
+        <div class="notes-card">
+            <h3>Triangles Notes</h3>
+            <button>Download PDF</button>
         </div>
 
-        <div class="stat-box">
-            <h2>50+</h2>
-            <p>Videos</p>
-        </div>
+    </div>
 
-        <div class="stat-box">
-            <h2>Free</h2>
-            <p>Learning Resources</p>
-        </div>
+</section>
 
-    </section>
+<!-- ================= formulas-section ================= -->
+
+<section class="formula-section">
+
+    <div class="section-title">
+        <h2>Important Formulas</h2>
+    </div>
+
+    <div class="formula-card">
+
+        <p><strong>Addition:</strong> a/b + c/d = (ad + bc)/bd</p>
+
+        <p><strong>Multiplication:</strong> a/b x c/d = ac/bd</p>
+
+        <p><strong>Division:</strong> a/b ÷ c/d = ad/bc</p>
+
+    </div>
+
+</section>
 
 
     <!-- ================= Footer ================= -->
@@ -249,11 +324,11 @@
                 <h3>Quick Links</h3>
 
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#updates">Updates</a></li>
-                    <li><a href="#youtube">YouTube</a></li>
-                    <li><a href="#founder">Founder</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/#updates">Updates</a></li>
+                    <li><a href="/#youtube">YouTube</a></li>
+                    <li><a href="/#founder">Founder</a></li>
+                    <li><a href="/#contact">Contact</a></li>
                 </ul>
 
             </div>
@@ -265,9 +340,9 @@
                 <h3>Classes</h3>
 
                 <ul>
-                    <li><a href="/class 8th/class8.html">Class 8</a></li>
-                    <li><a href="/class 9th/class9.html">Class 9</a></li>
-                    <li><a href="/class 10th/class10.html">Class 10</a></li>
+                    <li><a href="/class-8th/class8.html">Class 8</a></li>
+                    <li><a href="/class-9th/class9.html">Class 9</a></li>
+                    <li><a href="/class-10th/class10.html">Class 10</a></li>
                 </ul>
 
             </div>
